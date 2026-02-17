@@ -15,6 +15,11 @@ app.get('/about', (req, res) => {
   res.send('This is a simple Express application for learning purposes.');
 });
 
+// SERVICES ROUTE (NEWEST MODIFICATION)
+app.get('/services', (req, res) => {
+  res.send('We offer food delivery, pickup options, and catering services.');
+});
+
 // CONTACT FORM PAGE
 app.get('/contact', (req, res) => {
   res.send(`
